@@ -43,7 +43,6 @@ public final class Xcodebuild: Injectable {
         }
 
         let envs = [
-            "CODE_SIGNING_ALLOWED=\"NO\"",
             "ENABLE_BITCODE=\"NO\"",
             "DEBUG_INFORMATION_FORMAT=\"dwarf\""
         ]
